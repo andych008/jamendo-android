@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+<!--    
+   <style name="CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+	   <item name="android:button">@drawable/checkbox_selector</item>
+	   <item name="android:paddingLeft">25.0dip</item>
+	   <item name="android:maxHeight">10.0dip</item>
+   </style>
+-->    
+   
+   <style name="StyleTextShadow">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+   </style> 
+   
+   <style name="StyleTitleText" parent="@style/StyleTextShadow">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+   </style>
+   
+   <style name="StyleNoteTitleText" parent="@style/StyleTextShadow">
+        <item name="android:textSize">24.5sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+   </style>
+   
+   <style name="StyleBtnTextShadow">
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">1.0</item>
+   </style>      
+   
+   <style name="StyleButtonText" parent="@style/StyleBtnTextShadow">
+        <item name="android:textSize">16.5dip</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:gravity">center</item>
+   </style>
+   
+   <style name="StyleQQText" parent="@style/StyleBtnTextShadow">
+        <item name="android:textSize">16.5dip</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:gravity">center_vertical</item>
+   </style>
+
+
+   
+</resources>
+
+
+

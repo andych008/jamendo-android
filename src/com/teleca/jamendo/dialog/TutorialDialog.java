@@ -21,7 +21,7 @@ public class TutorialDialog extends Dialog {
 	 * @param context
 	 */
 	public TutorialDialog(Context context) {
-		super(context);
+		super(context, R.style.Theme_dialog);//不显示标题栏,见:http://andych008.farbox.com/post/Dialog
 		initialize(context);
 	}
 
@@ -50,7 +50,7 @@ public class TutorialDialog extends Dialog {
 	 */
 	private final void initialize(final Context context) {
 		setContentView(R.layout.tutorial);
-		setTitle(R.string.tutorial_title);
+		//setTitle(R.string.tutorial_title);//不显示标题栏
 		
 		Button mCloseButton = (Button)findViewById(R.id.closeTutorial);
 		if (mCloseButton != null) {
