@@ -50,17 +50,21 @@
 			</com.teleca.jamendo.widget.FailureBar>
 		</LinearLayout>
 	</com.teleca.jamendo.util.FixedViewFlipper>
-
+	
 	<android.gesture.GestureOverlayView
-		android:xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/gestures"
-		android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:id="@+id/gestures"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:eventsInterceptionEnabled="false"
+        android:gestureStrokeType="multiple"
+        android:orientation="vertical"
+         >
 
-		android:gestureStrokeType="multiple"
-		android:eventsInterceptionEnabled="false" android:orientation="vertical">
-
-		<ListView android:id="@+id/HomeListView"
-			android:layout_width="fill_parent" android:layout_height="fill_parent"
-			android:divider="#000" />
-	</android.gesture.GestureOverlayView>
+        <ListView
+            android:id="@+id/HomeListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#000" />
+    </android.gesture.GestureOverlayView>
 
 </LinearLayout>

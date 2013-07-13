@@ -16,3 +16,6 @@ gen/
 local.properties
 
 .swp
+/.classpath
+/.gitignore
+/project.properties
